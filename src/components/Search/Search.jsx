@@ -2,7 +2,7 @@ import React from 'react';
 
 import { useDispatch, useSelector } from 'react-redux';
 import { createSelector } from '@reduxjs/toolkit';
-import { setSearchParam } from '../PostsList/postsSlice';
+import { setCurrentPage, setSearchParam } from '../PostsList/postsSlice';
 
 import searchIcon from '../../assets/icons/search.png';
 
@@ -19,6 +19,7 @@ const Search = () => {
     const dispatch = useDispatch();
 
     const handlerSearchInputChange = (e) => {
+        dispatch(setCurrentPage(1));
         dispatch(setSearchParam(e.target.value.toLowerCase()))
     }
     
