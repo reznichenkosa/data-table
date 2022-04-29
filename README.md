@@ -4,7 +4,7 @@
 
 # Demo
 
-[Demo data table](https://duckduckgo.com)
+[Demo data table](https://data-table-eight.vercel.app/)
 
 # Functionality 
 
