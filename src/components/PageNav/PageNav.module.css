@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.pages {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.pages span {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.pages span:last-child {
+    margin-right: 0;
+}
+
+.activePage {
+    color: #7EBC3C;
+}

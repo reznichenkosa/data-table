@@ -1,0 +1,50 @@
+.wrapper {
+    margin-top: 15px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    border: 1px solid #E3E6EC;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.table th span {
+    cursor: pointer;
+}
+
+.tableHead {
+    height: 54px;
+    background-color: var(--color-base);
+    color: #fff;
+}
+
+.tableHead img {
+    margin-left: 25px;
+}
+
+.th110 {
+    width: 110px;
+}
+
+.th530 {
+    width: 530px;
+}
+
+.arrow {
+    transition: .3s;
+}
+
+.activeArrow {
+    transition: .3s;
+    transform: rotate(180deg);
+}
+
+.messages {
+    text-align: center;
+    margin-top: 50px;
+}

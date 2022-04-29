@@ -1,3 +1,9 @@
 # Data table
 
-React, Redux, RTK
+- React, Redux, RTK
+
+# Functionality 
+
+- SortByParams
+- SearchByParams
+- Pagination

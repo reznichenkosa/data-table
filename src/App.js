@@ -1,9 +1,13 @@
+import HomePage from "./pages/HomePage/HomePage";
+
+import 'normalize.css';
+import './styles/global.css';
 
 function App() {
   return (
-    <div className="App">
-      its work
-    </div>
+    <main>
+      <HomePage />
+    </main>
   );
 }
 
