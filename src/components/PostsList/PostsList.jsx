@@ -95,6 +95,12 @@ const PostsList = () => {
             }
             {postsLoadingStatus === 'loading' && <div className={styles.messages}>Загрузка данных...</div>}
             {postsLoadingStatus === 'error' && <div className={styles.messages}>Что-то пошло не так!!!</div>}
+            {
+                postsLoadingStatus !== 'loading' &&
+                postsLoadingStatus !== 'error' &&
+                postsOnePage.length === 0 &&
+                <div className={styles.messages}>Совпадений не найдено</div>
+            }
         </div>
     );
 };
